@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+.svg {
+margin: auto;
+position:absolute;
+top:0;
+bottom:0;
+left:0;
+right:0;	
+}
+.path {
+stroke-dasharray:6000;	
+stroke-dashoffset:6000;
+!-- Code transistion -->
+transition: 6s all;
+}
+
+svg:hover .path {
+	stroke-dashoffset: 0;	
+}
+
