@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+	.st0{fill:#FFFFFF;}
+	.st1{stroke:#000000;stroke-miterlimit:10;}
+	body{background:#444;}
+	svg {position:absolute;top:0;left:0;right:0;margin:auto;}
+	svg circle {fill:none;stroke-width:5px;stroke:#fafafa;}
+	svg path {fill:none;stroke:#960C0E;stroke-width:3px}
