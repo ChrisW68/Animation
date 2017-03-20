@@ -23,25 +23,34 @@ svg polygon {
 	stroke-dashoffset: 450;
 	animation: 3s diamond infinite forwards;
 	transform-origin: 50% 50%;
-	transition-delay: 12s;
-	fill: red;
+	transition-delay: 3s;
 }
 
 #small polygon {
 	fill: none;
 	stroke-dasharray: 225;
 	stroke-dashoffset: 225;
-	animation: 4.75s sdiamond infinite forwards;
+	animation: 3s sdiamond infinite forwards;
 }
 
 @keyframes diamond {
 	from {
 		stroke-dashoffset: 450;
+		animation-delay: 3s;
 	}
 	to {
 		stroke-dashoffset: 0;
 		transform: rotate(180deg);
-		fill: #933E05;
+		fill: #933E05;	
+	}
+}
+
+@keyframes scale {
+	from {
+	transform: scale(1);	
+	}
+	to {
+	transform: scale(1.5);	
 	}
 }
 
@@ -51,6 +60,7 @@ svg polygon {
 	}
 	to {
 		stroke-dashoffset: 0;
+		transform: rotate(-180deg);
 		fill: #AA5710;
 	}	
 }
